@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Disused London Tube Stations</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<script src="js/bootstrap.min.js"></script>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<style type="text/css">
+			body
+			{
+				padding-top: 51px;
+				padding-left: 0;
+				padding-right: 0;
+			}
+
+            .navbar-fixed-top
+            {
+                margin-left: 0;
+                margin-right: 0;
+                margin-bottom: 0;
+                position: fixed;
+            }
+
+			ul
+			{
+				color: white;
+			}
+
+			#googft-mapCanvas img
+			{
+  				max-width: none;
+			}
+
+			.modalDialog {
+			 	position: fixed;
+			 	font-family: Arial, Helvetica, sans-serif;
+			 	top: 0;
+			 	right: 0;
+			 	bottom: 0;
+			 	left: 0;
+			 	background: rgba(0,0,0,0.8);
+			 	z-index: 99999;
+			 	-webkit-transition: opacity 400ms ease-in;
+			 	-moz-transition: opacity 400ms ease-in;
+			 	transition: opacity 400ms ease-in;
+			 	display: none;
+			 	pointer-events: none;
+			 }
+
+			 .modalDialog:target {
+			 	display: block;
+			 	pointer-events: auto;
+			 }
+			 
+			 .modalDialog > div {
+			 	width: 80%;
+			 	position: relative;
+			 	margin: 10% auto;
+			 	padding: 5px 20px 13px 20px;
+			 	border-radius: 10px;
+			 	background: #fff;
+			 	background: -moz-linear-gradient(#fff, #999);
+			 	background: -webkit-linear-gradient(#fff, #999);
+			 	background: -o-linear-gradient(#fff, #999);
+			 }
+
+			 .close {
+			 	background: #606061;
+			 	color: #FFFFFF;
+			 	line-height: 25px;
+			 	position: absolute;
+			 	right: -12px;
+			 	text-align: center;
+			 	top: -10px;
+			 	width: 24px;
+			 	text-decoration: none;
+			 	font-weight: bold;
+			 	-webkit-border-radius: 12px;
+			 	-moz-border-radius: 12px;
+			 	border-radius: 12px;
+			 	-moz-box-shadow: 1px 1px 3px #000;
+			 	-webkit-box-shadow: 1px 1px 3px #000;
+			 	box-shadow: 1px 1px 3px #000;
+			 }
+			 
+			 .close:hover { background: #00d9ff; }
+		</style>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				navBarHeight();
+			});
+
+			window.onresize = function(event) {
+				navBarHeight();
+			}
+
+			function navBarHeight() {
+				$('#top').css({'padding-top':(document.getElementById('navBar').offsetHeight)+'px'});
+				$('#googft-mapCanvas').css({'height':(($(window).height() - (document.getElementById('navBar').offsetHeight)))+'px'});
+
+				if ($(window).width() > 500)
+					$('.modalDialog > div').css({'width':'400px'});
+				else
+					$('.modalDialog > div').css({'width':'80%'});
+			}
+
+			function initialize() {
+				map = new google.maps.Map(document.getElementById('googft-mapCanvas'), {
+					center: new google.maps.LatLng(51.5073, -0.1276),
+					zoom: 9,
+					mapTypeId: google.maps.MapTypeId.ROADMAP
+				});
+
+				layer = new google.maps.FusionTablesLayer({
+					map: map,
+					heatmap: { enabled: false },
+					query: {
+						select: "col6",
+						from: "1nWLWsCXe6CHyZU6SYAzzVMnR-whPrq3k098l0g0",
+						where: ""
+					},
+					options: {
+						styleId: 2,
+						templateId: 3
+					}
+				});
+			}
+
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+		<script>
+  			!function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+  			arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+  			d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+  			insertBefore(d,q)}(window,document,'script','_gs');
+  
+  			_gs('GSN-360996-A');
+		</script>
+	</head>
+	<body id="top">
+		<div class="navbar navbar-fixed-top" id="navBar">
+			<div class="navbar-inner">
+				<div class="container-fluid">
+					<a class="brand">Disused London Tube Stations</a>
+					<ul class="nav pull-left">
+						<li><a href="#modal">About</a></li>
+					</ul>
+					<!-- <ul class="nav pull-right" id="navBarTextRight">
+						<li><a href="http://en.wikipedia.org/wiki/List_of_former_and_unopened_London_Underground_stations#Former_stations">Data scraped from Wikipedia</a></li>
+					</ul> -->
+				</div>
+			</div>
+		</div>
+		<div id="modal" class="modalDialog">
+			<div>
+		 		<a href="#close" title="Close" class="close">X</a>
+		 		<h4>Disused London Tube Stations</h4>
+		 		</br>
+		 		<p>This map uses <a href="http://en.wikipedia.org/wiki/List_of_former_and_unopened_London_Underground_stations#Former_stations">data scraped from Wikipedia</a> to display the locations and details of closed, transferred and demolished Underground stations within and around London.</p>
+		 		<p>Any feedback or questions of any kind are very much appreciated, so please feel free to drop me an email.</p>
+		 		<p><b>Email me at: </b> <a href="mailto:dylan@dylanmaryk.com">dylan@dylanmaryk.com</a></p>
+		 	</div>
+ 		</div>
+		<div id="googft-mapCanvas" />
+	</body>
+</html>
