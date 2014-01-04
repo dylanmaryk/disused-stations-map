@@ -162,7 +162,7 @@
     {
         "current_condition": "Demolished",
         "type_of_closure": "Station and route closed",
-        "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Underground_sign_at_Westminster.jpg/31px-Underground_sign_at_Westminster.jpg",
+        "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Aylesbury%2C_High_Wycombe%2C_Princes_Risboro%2C_Quainton_Road_%26_Verney_Ashendon_RJD_146.jpg/220px-Aylesbury%2C_High_Wycombe%2C_Princes_Risboro%2C_Quainton_Road_%26_Verney_Ashendon_RJD_146.jpg",
         "coordinates": "51.9116 -0.9176",
         "station": "Granborough Road",
         "details": "Closed when Verney Junction service was cut back to Aylesbury due to low passenger numbers.",
@@ -240,19 +240,9 @@
         "line": "Metropolitan, Piccadilly"
     },
     {
-        "current_condition": "Remainder of station in use",
-        "type_of_closure": "Partial",
-        "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Holborn_Tube_Station_-_April_2006.jpg/240px-Holborn_Tube_Station_-_April_2006.jpg",
-        "coordinates": "51.5174 -0.1201",
-        "station": "Holborn",
-        "details": "The station has two disused platforms that served the Aldwych branch; one was taken out of use in 1917.",
-        "closed": "30 September 1994",
-        "line": "Piccadilly"
-    },
-    {
         "current_condition": "Demolished",
         "type_of_closure": "Station and route closed, station resited",
-        "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Underground_sign_at_Westminster.jpg/31px-Underground_sign_at_Westminster.jpg",
+        "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Hounslow_Underground_stations.png/600px-Hounslow_Underground_stations.png",
         "coordinates": "51.47167 -0.35444",
         "station": "Hounslow Town",
         "details": "On a now-closed branch of the Metropolitan District Railway, from what is now the Piccadilly line near Hounslow East, it was closed when Hounslow East station was opened.",
@@ -302,7 +292,7 @@
     {
         "current_condition": "Demolished",
         "type_of_closure": "Station closed",
-        "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Underground_sign_at_Westminster.jpg/31px-Underground_sign_at_Westminster.jpg",
+        "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/95/LUL-S-Stock-arrives-Croxley.jpg/100px-LUL-S-Stock-arrives-Croxley.jpg",
         "coordinates": "51.53000 -0.16917",
         "station": "Lord's",
         "details": "Closed to increase capacity on Metropolitan line, following opening of nearby St John's Wood station on the Bakerloo line (now the Jubilee line).",
@@ -385,14 +375,14 @@
         "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Osterley_station_building2.JPG/240px-Osterley_station_building2.JPG",
         "coordinates": "51.4814 -0.3522",
         "station": "Osterley & Spring Grove",
-        "details": "Closed when new Osterley station was opened to the south-west, to provide additional capacity.",
+        "details": "Closed when new .",
         "closed": "24 March 1934",
         "line": "Piccadilly"
     },
     {
         "current_condition": "Demolished",
         "type_of_closure": "Station resited",
-        "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Underground_sign_at_Westminster.jpg/31px-Underground_sign_at_Westminster.jpg",
+        "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/db/1973_Stock_at_Ruislip_Manor_1.jpg/100px-1973_Stock_at_Ruislip_Manor_1.jpg",
         "coordinates": "51.53139 -0.28944",
         "station": "Park Royal & Twyford Abbey",
         "details": "Closed when station was relocated to Park Royal to provide more convenient access from Western Avenue; when open, this station was served by the District line.",
@@ -455,7 +445,7 @@
         "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Shepherd%27s_Bush_Market_stn_west_entrance.JPG/240px-Shepherd%27s_Bush_Market_stn_west_entrance.JPG",
         "coordinates": "51.5058 -0.2264",
         "station": "Shepherd's Bush",
-        "details": "Station replaced by Shepherd's Bush (now Shepherd's Bush Market) to the north and Goldhawk Road to the south.",
+        "details": "Station replaced by .",
         "closed": "31 March 1914",
         "line": "Hammersmith & City"
     },
@@ -562,7 +552,7 @@
     {
         "current_condition": "Demolished",
         "type_of_closure": "Station closed",
-        "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Underground_sign_at_Westminster.jpg/31px-Underground_sign_at_Westminster.jpg",
+        "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/95/LUL-S-Stock-arrives-Croxley.jpg/100px-LUL-S-Stock-arrives-Croxley.jpg",
         "coordinates": "51.54361 -0.17667",
         "station": "Swiss Cottage",
         "details": "Closed as a wartime measure and not reopened; the adjacent Bakerloo line (now Jubilee line) station briefly operated as an interchange.",
@@ -572,7 +562,7 @@
     {
         "current_condition": "Demolished",
         "type_of_closure": "Station resited",
-        "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Underground_sign_at_Westminster.jpg/31px-Underground_sign_at_Westminster.jpg",
+        "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/95/LUL-S-Stock-arrives-Croxley.jpg/100px-LUL-S-Stock-arrives-Croxley.jpg",
         "coordinates": "51.51000 -0.07667",
         "station": "Tower of London",
         "details": "A short-lived station on the site of the present Tower Hill station, which was closed when Mark Lane (also now closed) was opened.",
@@ -597,16 +587,6 @@
         "station": "Uxbridge Road",
         "details": "Closed after bombing of the line during World War II, due to low passenger numbers; National Rail services on the line continue, and Shepherd's Bush station is a short distance to the north.",
         "closed": "19 October 1940",
-        "line": "Metropolitan"
-    },
-    {
-        "current_condition": "Demolished",
-        "type_of_closure": "Station and route closed",
-        "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Verney_Junction_Station.jpg/280px-Verney_Junction_Station.jpg",
-        "coordinates": "51.9406 -0.9300",
-        "station": "Verney Junction",
-        "details": "Closed when service was cut back to Aylesbury due to low passenger numbers.",
-        "closed": "4 July 1936",
         "line": "Metropolitan"
     },
     {
@@ -696,16 +676,6 @@
         "coordinates": "51.5099417 -0.4722639",
         "station": "West Drayton",
         "details": "The Windsor service was cut back to Ealing Broadway due to low passenger numbers.",
-        "closed": "30 September 1885",
-        "line": "District"
-    },
-    {
-        "current_condition": "Operated by National Rail",
-        "type_of_closure": "Service withdrawn",
-        "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Windsorcentral.jpg/176px-Windsorcentral.jpg",
-        "coordinates": "51.483, -0.610",
-        "station": "Windsor",
-        "details": "The Windsor service was cut back to Ealing Broadway due to low passenger numbers. The station is now Windsor & Eton Central.",
         "closed": "30 September 1885",
         "line": "District"
     },
